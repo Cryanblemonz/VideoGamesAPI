@@ -1,0 +1,35 @@
+        {
+                name: "Elden Ring",
+                esrb: "M",
+                genre: "Adventure"
+        },
+        {
+                name: "Super Mario Brothers",
+                esrb: "E",
+                genre: "Platformer"
+        },
+        {
+                name: "Legend of Zelda: Breath of the Wild",
+                esrb: "E",
+                genre: "Adventure"
+        },
+        {
+                name: "Ratchet and Clank",
+                esrb: "E10",
+                genre: "Platformer"
+        },
+        {
+                name: "Red Dead Redemption 2",
+                esrb: "M",
+                genre: "Adventure"
+        },
+        {
+                name: "Pokemon Red/Blue/Yellow",
+                esrb: "E",
+                genre: "RPG"
+        },
+        {
+                name: "Destiny 2",
+                esrb: "T",
+                genre: "First Person Shooter"
+        }
