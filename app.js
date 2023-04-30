@@ -71,15 +71,20 @@ app.route("/games/:id")
     })
 })
 
-.put(function(req, res){
+.patch(function(req, res){
     game.updateOne(
         {name: req.params.id},
-        {name: req.query.name, esrb: req.query.esrb, genre: req.query.genre})
+        {name: req.query.name})
         .catch((err)=> {
             console.log(err);
         })
 })
 
+.delete(function(req,res){
+    game.deleteOne({name: req.params.id})
+    .then(()=>
+    console.log("successfully deleted: " + req.params.id))
+});
 
 
 app.get("/games/:id",);
